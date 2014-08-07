@@ -3,6 +3,22 @@
  I (Kevin Finisterre) do not specifically condone TauLabs in general, nor do I support 'Quanton' as a body of work. 
  (This has NOTHING to with Team Black Sheep or sirperna at ALL, as I am NOT affiliated with them)
 
+ The FPVLab thread "Announcing the TBS GEMINI fpv racer / mini hex" is the thread that houses this *product*
+ http://fpvlab.com/forums/showthread.php?32545-Announcing-the-TBS-GEMINI-fpv-racer-mini-hex
+
+ Please be aware that TauLabs attempted to prevent this product from making use of the TauLabs GCS. Internal conversations
+ were had over kfinisterre's involvement as being a reason to *block* a pull request to include Colibri Flight Controller
+
+ After some pressure from Team Black Sheep, TauLabs caved a bit and at least added the USB ID to the "Development Hardware" page. 
+ https://github.com/TauLabs/TauLabs/wiki/Development-Hardware-IDs
+ Colibri	0x91	0x01	0x20a0	0x4235
+
+ At this point in time the product is not *officially* supported by TauLabs. The "Open Source" nature of the project remains questionable
+
+ Colibri is a clone of Quanton which is a clone of Revo which is VERY touchy in the community. 
+ In jest even R_Lefebvre chimed in on the concept well before Colibri existed. See the Quanton post on DIYDrones - http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A1110560&commentId=705844%3AComment%3A1227209&xg_source=activity
+ "Wow, clone of a clone.  $30.  If somebody makes a clone of a clone of a clone, will it be $3? ;)"
+
  The MAIN reason I chose to engague in this was the snarky attitude presented by guilhermito when perna asked for help.
 
  "Re: New Tiny Hardware
@@ -22,11 +38,6 @@
 ![Colibri Preview](http://i.imgur.com/ymF4UOS.jpg)
 ![Colibri2 Preview](http://i.imgur.com/N6ziuIN.jpg)
 ![Colibri3 Preview](http://i.imgur.com/CozeIwj.png)
-
-
- Colibri is a clone of Quanton which is a clone of Revo which is VERY touchy in the community. 
- In jest even R_Lefebvre chimed in on the concept well before Colibri existed. See the Quanton post on DIYDrones - http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A1110560&commentId=705844%3AComment%3A1227209&xg_source=activity
- "Wow, clone of a clone.  $30.  If somebody makes a clone of a clone of a clone, will it be $3? ;)"
 
  These files are provided out of courtesy to an acquantence that I met while reading about new hardware that would support TauLabs (and OpenPilot by proxy) 
  I am doing this patch primarily as an exercise to help me continue my understanding of OpenPilot based software and hardware interactions
